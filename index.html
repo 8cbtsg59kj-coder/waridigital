@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
@@ -10,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
 
@@ -18,92 +19,253 @@
 
 <body>
 
+<!-- FLOATING LOGO -->
+
 <div class="floating-logo">
 
-<img src="logo.png" id="dial">
+    <div class="logo-stack">
 
-<div class="brand">
-PEEP IT
-<span>DIGITAL</span>
+        <img src="eye_outline.png" class="eye-outline">
+
+        <img src="dial.png" id="dial">
+
+    </div>
+
+    <div class="brand">
+        PEEP IT
+        <span>DIGITAL</span>
+    </div>
+
 </div>
 
-</div>
+<!-- NAVIGATION -->
 
 <nav>
 
-<div class="nav-links">
-<a href="#">Home</a>
-<a href="#">Services</a>
-<a href="#">Work</a>
-<a href="#">Contact</a>
-</div>
+    <div class="nav-links">
 
-<a href="#" class="cta-nav">
-Schedule A Call
-</a>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#results">Results</a>
+        <a href="#contact">Contact</a>
+
+    </div>
+
+    <a href="#contact" class="nav-btn">
+        Book A Call
+    </a>
 
 </nav>
 
-<section class="hero">
+<!-- HERO -->
 
-<div class="hero-left">
+<section class="hero" id="home">
 
-<h1>
-We engineer
-<span>digital growth</span>
-for ambitious brands.
-</h1>
+    <div class="hero-content">
 
-<p>
-Premium websites, branding and digital systems designed to help businesses dominate online.
-</p>
+        <div class="hero-tag">
+            PREMIUM DIGITAL GROWTH PARTNER
+        </div>
 
-<a href="#" class="cta">
-Schedule A Strategy Call
-</a>
+        <h1>
 
-</div>
+            We help businesses
 
-<div class="hero-right">
+            <span>
+                dominate online
+            </span>
 
-<div class="stairs">
+            with websites,
+            branding and digital systems.
 
-<div class="step step1"></div>
-<div class="step step2"></div>
-<div class="step step3"></div>
-<div class="step step4"></div>
+        </h1>
 
-<div class="gold-line"></div>
+        <p>
 
-</div>
+            Peep It Digital combines high-converting websites,
+            content creation and digital strategy to help
+            ambitious brands grow faster.
 
-</div>
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#contact" class="primary-btn">
+                Schedule A Strategy Call
+            </a>
+
+            <a href="#services" class="secondary-btn">
+                Explore Services
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-visual">
+
+        <div class="stairs">
+
+            <div class="step step1"></div>
+            <div class="step step2"></div>
+            <div class="step step3"></div>
+            <div class="step step4"></div>
+
+            <div class="gold-line"></div>
+
+        </div>
+
+    </div>
 
 </section>
 
-<section class="stats">
+<!-- STATS -->
 
-<div class="stat">
-<h2>$2M+</h2>
-<p>Revenue Influenced</p>
-</div>
+<section class="stats" id="results">
 
-<div class="stat">
-<h2>50+</h2>
-<p>Projects Delivered</p>
-</div>
+    <div class="stat-card">
 
-<div class="stat">
-<h2>4</h2>
-<p>Countries Served</p>
-</div>
+        <h2>50+</h2>
 
-<div class="stat">
-<h2>98%</h2>
-<p>Client Satisfaction</p>
-</div>
+        <p>
+            Projects Delivered
+        </p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h2>98%</h2>
+
+        <p>
+            Client Satisfaction
+        </p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h2>4</h2>
+
+        <p>
+            Countries Served
+        </p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h2>24/7</h2>
+
+        <p>
+            Digital Presence
+        </p>
+
+    </div>
 
 </section>
+
+<!-- SERVICES -->
+
+<section class="services" id="services">
+
+    <div class="section-header">
+
+        <span>
+            OUR SERVICES
+        </span>
+
+        <h2>
+            Digital Solutions Built To Scale
+        </h2>
+
+    </div>
+
+    <div class="service-grid">
+
+        <div class="service-card">
+
+            <h3>
+                Website Development
+            </h3>
+
+            <p>
+                Premium websites designed to convert visitors into paying customers.
+            </p>
+
+        </div>
+
+        <div class="service-card">
+
+            <h3>
+                Social Media Marketing
+            </h3>
+
+            <p>
+                Strategic content and campaigns that build awareness and trust.
+            </p>
+
+        </div>
+
+        <div class="service-card">
+
+            <h3>
+                Content Creation
+            </h3>
+
+            <p>
+                Professional visual content that positions your brand as a market leader.
+            </p>
+
+        </div>
+
+        <div class="service-card">
+
+            <h3>
+                Branding
+            </h3>
+
+            <p>
+                Memorable brand systems that create authority and recognition.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta-section" id="contact">
+
+    <h2>
+        Ready To Grow?
+    </h2>
+
+    <p>
+        Let's build a digital presence that makes people stop and pay attention.
+    </p>
+
+    <a href="#" class="primary-btn">
+        Book Your Strategy Call
+    </a>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <h3>
+        PEEP IT DIGITAL
+    </h3>
+
+    <p>
+        Digital growth engineered for ambitious brands.
+    </p>
+
+</footer>
 
 <script src="script.js"></script>
 
